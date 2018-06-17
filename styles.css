@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
+	.navbar-collapse.in {overflow: hidden; max-height: none !important; height: auto !important;}
+	.navbar-nav .open .dropdown-menu {color: #000000 !important; background-color:#ffffff;}
+	.navbar.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {color: #000; !important;}
+	ul.nav a:hover {color: #fff !important; background: linear-gradient(#222222, #444444);}
+	.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {background: linear-gradient(#222222, #444444) !important;}
+	#menubar {background: linear-gradient(#444444, #222222);}
+
+li
+	{
+	font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-hight: 23px;
+	text-decoration: none;
+	display: solid;
+	color: #000000;
+	}
+
+footer	{
+	font-family:"PT Sans Narrow","Arial Narrow", Arial, Helvetica, sans-serif;
+
+	font-weight: bold;
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	!overflow: hidden;
+	background-color: #FFFFFF;
+	color: #444444;
+	text-align: center;
+	font-size: 16px;
+	}
+
+@media (min-width: 1px) and (max-width: 768px)
+	{	.navbar .navbar-nav {display: relative; float: none;}
+		.navbar .navbar-collapse {text-align: left;}
+
+	h1	{
+		font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+
+		font-size: 30px;
+		text-align: left;
+		}
+	h2	{
+		font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+
+		font-size: 20px;
+		text-align: left;
+		}
+	h3	{
+		font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+
+		font-size: 15px;
+		text-align: left;
+		}
+	h4	{
+		font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+
+		font-size: 13px;
+		text-align: left;
+		}
+	h5	{
+		font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+
+		font-size: 11px;
+		text-align: left;
+		}
+	h6	{
+		font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+		font-weight: normal;
+
+		font-size: 9px;
+		}
+.superbox 	{
+		font-size: 16px;
+		}
+	}
+@media (min-width: 769px)
+		{
+		.navbar .navbar-nav {display: inline-block; float: none; height: 45px;}
+		.navbar .navbar-collapse {text-align: center;}
+	h1	{
+		font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+
+		font-size: 40px;
+		text-align: left;
+		}
+	h2	{
+		font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+
+		font-size: 30px;
+		text-align: left;
+		}
+	h3	{
+		font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+
+		font-size: 20px;
+		text-align: left;
+		}
+	h4	{
+		font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+
+		font-size: 15px;
+		text-align: left;
+		}
+	h5	{
+		font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+
+		font-size: 13px;
+		text-align: left;
+		}
+	h6	{
+		font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+
+		font-size: 10px;
+		text-align: left;
+		}
+.superbox 	{
+		font-size: 20px;
+		}
+	}
+
+#pagecontent {text-align: center;}
+
+.superbox 
+	{
+	width: 100%;
+	font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+	font-weight: 300;
+
+	text-align: left;
+	border-style: solid; 
+	background-color: #F9F9F9; 
+	border-color: #666; 
+	margin: 0px 0px 0px 0px;
+	padding: 0px 20px 20px 20px;
+	border-radius: 20px;
+	}
+
+.emptybox 
+	{
+	width: 100%;
+	font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+	font-weight: 300;
+
+	text-align: left;
+	border-style: none; 
+	background-color: #FFF; 
+	margin: 0px 0px 0px 0px;
+	padding: 0px 20px 20px 20px;
+	}
+
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover { opacity: 0.7;}
+
+.fa-facebook { background: #000000; color: white; }
+.fa-twitter { background: #000000; color: white; }
+.fa-google { background: #000000; color: white; }
+.fa-instagram { background: #000000; color: white; }
